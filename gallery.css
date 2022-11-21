@@ -1,0 +1,100 @@
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.column{
+    height: 300px;
+    width: 30%;
+    box-shadow: 2px 2px 4px gray;
+}
+.col1{
+    background-image: url(./supercar-wallpapers-mclaren-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.col2{
+    background-image: url(./11207.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col3{
+    background-image: url(./13647.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col4{
+    background-image: url(./33115.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col5{
+    background-image: url(./49c354e825c5f02be7f6c25e6c784373.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col6{
+    background-image: url(./a1aeb92de8130bd247a63829f0030bed.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col7{
+    background-image: url(./a246a4d7f1ccd8fa595db903b7e2b8e5.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col8{
+    background-image: url(./a5df89f0a1629ba76ecc09612c2a29a1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col9{
+    background-image: url(./bfy5ep0eyjabuzim.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col10{
+    background-image: url(./e8ec87427523f44c1a976cf958bab46f.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col11{
+    background-image: url(./images.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col12{
+    background-image: url(./photo-1568605117036-5fe5e7bab0b7.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col13{
+    background-image: url(./race-concept-car-art-th3w4l09g6182zp3-th3w4l09g6182zp3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col14{
+    background-image: url(./supercar-wallpapers-mclaren-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.col15{
+    background-image: url(./wp5054100.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.col16{
+    background-image: url(./wp9299203.jpg);
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width:600px) {
+    .row{
+        flex-direction: column;
+    }
+    .column{
+        width: 100%;
+    }
+    
+}
